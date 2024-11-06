@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #191a2b;  
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.soat-quti {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fon-shakllari {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shakl {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  opacity: 0.4;
+}
+
+.shakl.pushti {
+  background: #ff3f81;
+  position: absolute;
+  top: 20px;
+  left: -20px;
+}
+
+.shakl.kok {
+  background: #3f8fff;
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+.soat {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px 30px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.vaqt {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.vaqt span:last-child {
+  display: block;
+  font-size: 0.5em;
+  font-weight: normal;
+  margin-top: 5px;
+  opacity: 0.8;
+}
+
+.soat > span {
+  font-size: 2em;
+  color: #ffffff;
+}
